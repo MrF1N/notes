@@ -15,6 +15,10 @@ import java.io.Serializable;
 import java.math.BigInteger;
 import java.util.List;
 
+/**
+ * DTO (Data Transfer Object) юзера со всеми настройками автогенерации таблиц в БД
+ */
+
 @Entity
 @Table(name = "users")
 public class User implements Serializable {

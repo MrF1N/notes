@@ -17,6 +17,10 @@ import org.springframework.web.server.ResponseStatusException;
 import java.math.BigInteger;
 import java.util.List;
 
+/**
+ * Контроллер для работы со всеми сообщениями сообщений (поддерживает все CRUD операции)
+ */
+
 @RestController
 @RequestMapping(path = "/notes/api")
 public class NoteBaseController {
@@ -53,7 +57,7 @@ public class NoteBaseController {
     }
 
     @DeleteMapping("/notes/{id}")
-    public void deleteNote( @PathVariable BigInteger id) {
+    public void deleteNote(@PathVariable BigInteger id) {
         noteRepository.deleteById(id);
     }
 }

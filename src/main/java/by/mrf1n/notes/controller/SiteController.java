@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.math.BigInteger;
 
+/**
+ * Контроллер для открытия страниц сайта
+ * (главная страница, просмотр юзеров/сообщений/групп, создание/редактирование юзеров/сообщений/групп)
+ */
+
 @Controller
 @RequestMapping(path = "/notes")
 public class SiteController {
@@ -35,12 +40,6 @@ public class SiteController {
     public String getMainPage() {
         return "index";
     }
-
-//    @RequestMapping("/test")
-//    public String getTestPage(ModelMap model) {
-//        model.addAttribute("listPersons", userRepository.findAll());
-//        return "index1";
-//    }
 
     @RequestMapping("/users")
     public String getUsersPage(ModelMap model) {

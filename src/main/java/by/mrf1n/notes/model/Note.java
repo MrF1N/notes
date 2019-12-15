@@ -12,6 +12,10 @@ import javax.persistence.TableGenerator;
 import java.io.Serializable;
 import java.math.BigInteger;
 
+/**
+ * DTO (Data Transfer Object) сообщения со всеми настройками автогенерации таблиц в БД
+ */
+
 @Entity
 @Table(name = "notes")
 public class Note implements Serializable {

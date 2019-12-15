@@ -17,6 +17,10 @@ import org.springframework.web.server.ResponseStatusException;
 import java.math.BigInteger;
 import java.util.List;
 
+/**
+ * Контроллер для работы с группами сообщений (поддерживает все CRUD операции)
+ */
+
 @RestController
 @RequestMapping(path = "/notes/api")
 public class GroupController {

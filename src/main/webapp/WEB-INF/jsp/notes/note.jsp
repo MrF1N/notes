@@ -1,4 +1,5 @@
 <%--
+  Страница создания/изменения сообщений
   Created by IntelliJ IDEA.
   User: Grey
   Date: 19.10.2019

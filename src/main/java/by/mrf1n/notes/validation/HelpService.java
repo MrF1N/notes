@@ -17,6 +17,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+/**
+ * Сервис для описания сложной логики, которая будет использоваться многократно в коде, чтобы не загромождать
+ */
+
 @Service
 public class HelpService {
 

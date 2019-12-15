@@ -17,6 +17,10 @@ import org.springframework.web.server.ResponseStatusException;
 import java.math.BigInteger;
 import java.util.List;
 
+/**
+ * Контроллер для работы с сообщениями конкретного пользователя сообщений (поддерживает все CRUD операции)
+ */
+
 @RestController
 @RequestMapping(path = "/notes/api/users/{userId}")
 public class NoteController {

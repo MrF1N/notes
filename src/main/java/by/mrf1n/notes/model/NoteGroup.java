@@ -15,6 +15,10 @@ import java.io.Serializable;
 import java.math.BigInteger;
 import java.util.List;
 
+/**
+ * DTO (Data Transfer Object) группы сообщений со всеми настройками автогенерации таблиц в БД
+ */
+
 @Entity
 @Table(name = "note_groups")
 public class NoteGroup implements Serializable {

@@ -8,6 +8,11 @@ import java.math.BigInteger;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Репозиторий, который работатет с сообщениями, основная его функциональность генерируется средствами Spring,
+ * здесь описывается только дополнительная функциональность, репозиторий будет связан с БД, которая настроена в application.properties
+ */
+
 public interface NoteRepository extends JpaRepository<Note, BigInteger> {
     List<Note> findByUserId(BigInteger userId);
 
